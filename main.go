@@ -4,11 +4,13 @@ import (
 	"fmt"
 
 	"github.com/Thelulutz/golang-beginning/mascot"
-    "rsc.io/quote"
+	"github.com/Thelulutz/golang-beginning/variables"
+	"rsc.io/quote"
 )
-
 
 func main() {
 	fmt.Println(mascot.BestMascot())
-    fmt.Println(quote.Go())
+	fmt.Println(quote.Go())
+
+	variables.PrintVariables()
 }
